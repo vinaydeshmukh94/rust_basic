@@ -1,0 +1,9 @@
+cargo new project_name
+cargo build
+    path : target/debug/<executable>
+cargo run
+cargo check - faster than build no executable is created
+
+cargo build --release  
+    By defauld build is debug build
+    path  : target/release/<executable>
