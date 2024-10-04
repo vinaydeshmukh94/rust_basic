@@ -1,0 +1,17 @@
+cargo new project_name
+cargo build
+    path : target/debug/<executable>
+cargo run
+cargo check - faster than build no executable is created
+
+cargo build --release  
+    By defauld build is debug build
+    path  : target/release/<executable>
+
+dependencies: 
+check from crates.io
+    -  Directly add in Cargo.toml file in dependencies
+    -  cargo add <dependency_name> - automatically changes the toml file
+
+
+cargo doc --open
